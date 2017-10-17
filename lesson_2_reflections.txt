@@ -1,0 +1,31 @@
+Title for lesson 2
+What happens when you initialize a repository? Why do you need to do it?
+
+	The .git directory gets created. In preparation to start using a repository.
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	- It's an intermediate area. 
+	- To specify what files will be under version control. 
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	By using git diff, git diff -stage and git diff commit1 commit2
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	When you need to test some new feature
+	when you want to do a major change and want to keep the original
+	for testing and comparing different approaches
+
+How do the diagrams help you visualize the branch structure?
+	Very much, by allowing to figure out how the whole GIT system flows.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	You finish having just one branch with all the commits inside.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+	Automatic merging is fast but cannot resolve all situations.
+	Manual merging takes more time and are error prone, but you have more control.
+	Maybe different approaches work for different situations, I can use one or another.
